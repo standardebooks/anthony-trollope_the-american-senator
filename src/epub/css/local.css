@@ -1,2 +1,69 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* Begin LETTERS */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+header > [epub|type~="z3998:salutation"]{
+	text-align: initial;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+footer [epub|type~="z3998:recipient"]{
+	text-align: initial;
+	text-indent: 0;
+}
+
+footer [epub|type~="z3998:recipient"] span{
+	font-variant: normal;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+/* end letters */
+
+/* Begin VERSE */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+/* end verse */
+
+/* begin BESPOKE Styling */
+#chapter-31 header > p:first-child{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+	text-align: center;
+}
+/* end bespoke */
