@@ -49,7 +49,7 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2008106897</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>While an American senator appraises the institutions of England, hunting for foxes and spouses goes on in a rural English town.</dc:abstract>
+		<meta property="schema:abstract">While an American senator appraises the institutions of England, hunting for foxes and spouses goes on in a rural English town.</meta>
 		<dc:description>
 			&lt;p&gt;When John Morton returns to his rural English estate from a diplomatic posting in Washington, he returns not only with an American senator seeking to understand England, but also with a fiancée, the aristocratic beauty Arabella Trefoil. Morton’s return also brings him back into contact with his slightly older and estranged cousin, Reginald, who still resides in Dillsborough, their ancestral town.&lt;/p&gt;
 			&lt;p&gt;Out of these elements, &lt;a href="https://standardebooks.org/ebooks/anthony-trollope"&gt;Trollope&lt;/a&gt; constructs a “chronicle of a winter at Dillsborough”—as the Senator of the title does not, in fact, take pride of place, which instead goes to the goings-on among residents of the town and its environs. As romantic intrigues unfold, elements of status, class, and wealth propel and dispel various attachments. The Senator acts as a foil to reflect on the absurdities of English life—somewhat tempered by the noble but headstrong character of the American.&lt;/p&gt;
